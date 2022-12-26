@@ -1,0 +1,53 @@
+.hover{
+    background-color: aqua;
+    transition: all 1s;
+}
+.hover:hover{
+    background-color: aquamarine;
+}
+
+
+.link:link{
+    color: white;
+}
+
+
+.visited:visited{
+    color: blueviolet;
+}
+
+
+.active:active{
+    background-color: black;
+    color: white;
+}
+
+
+.focus{
+    background-color: lightgray;
+}
+.focus:focus{
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+
+.lang b:lang(es){
+ font-weight: 900;
+ background: blue;
+ color: white;
+}
+
+
+.caja{
+ width: 300px;
+ height: 500px;
+ border: 1px solid black;
+}
+.caja-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*ajustar la img a la caja*/
+    object-position: left; /*posiciona la img*/
+}

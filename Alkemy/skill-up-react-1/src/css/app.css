@@ -1,0 +1,14 @@
+.favourite-btn{
+  width: 25px;
+  height: 25px;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  font-size: 13px;
+}

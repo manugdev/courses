@@ -1,0 +1,17 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Primer proyecto de JS con node en openBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "saludar": "node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "first",
+    "project"
+  ],
+  "author": "Manuel Garcia",
+  "license": "ISC"
+}

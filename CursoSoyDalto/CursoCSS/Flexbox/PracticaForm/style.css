@@ -1,0 +1,88 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.flex-container{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #222;
+    margin: 50px 50px;
+    padding: 20px;
+}
+.form{
+    padding: 30px;
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    order: 2;
+}
+.form__input{
+    padding: 7px;
+    margin: 6px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #094;
+    background: transparent;
+    color: white;
+}
+.form__input:focus{
+    background: linear-gradient(to bottom, transparent, #111);
+    border-bottom: 3px solid #5f9;
+    
+}
+.form textarea{
+    min-height: 140px;
+    resize: none;
+}
+
+.form-img{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    order: 1;
+}
+.form-img div{
+    padding: 10px;
+}
+.img-container{
+    margin: auto;
+}
+.img-container{
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.form-img img{
+    width: 80%;
+    margin: auto;
+}
+
+.form__input[type="submit"]{
+    background-color: #094;
+    padding: 12px;
+    border-bottom: none;
+}
+.form__input[type="submit"]:hover{
+    background-color: #072;
+    
+}
+.form__input[type="submit"]:focus{
+    background-color: #094;
+}
+.form__input[type="submit"]:active{
+    background: linear-gradient(to bottom, #072, #050);    
+}

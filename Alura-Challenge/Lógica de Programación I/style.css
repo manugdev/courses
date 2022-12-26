@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #5c4b7a;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 280%;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 0  2px 0 rgb(255, 255, 255),
+                 0  4px 0 rgb(237, 240, 237),
+                 3px 8px 15px rgba(0,0,0,0.1),
+                 3px 8px  5px rgba(0,0,0,0.3);
+    -webkit-text-stroke: 0.9px black;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 10px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+div{
+    background-color: #5c4b7a;
+    border: 1px solid black;
+    box-shadow: 8px 8px 35px 0px black;
+    text-align:center; 
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    vertical-align:middle;
+    margin: auto;
+    border-radius: 20px;
+}
+textarea{
+    color:white;
+    margin-top: -20px;
+    box-shadow: inset 4px 4px 4px black;
+    background-color: #292b36;
+    width: fit-content;
+    height: 200px;
+    font-size: larger;
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+#encriptar{
+    background-color:#0D7F3C;
+    color: black;
+    font-weight:bold;
+    padding: 4px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 4px;
+}
+#desencriptar{
+    background-color: #AF3805;
+    color: black;
+    font-weight:bold;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+#copia{
+    background-color: #5379DD;
+    color: black;
+    font-weight:bold;
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+#firma{
+    color: white;
+    text-transform: uppercase;
+    text-align:left;
+    font-size: 80%;
+    margin-top: 5%;
+    font-weight:bold;
+    text-transform: uppercase;
+}

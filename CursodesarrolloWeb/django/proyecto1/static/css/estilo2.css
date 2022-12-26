@@ -1,0 +1,10 @@
+h1{
+    color:green
+}
+tabla, td {
+    border: solid 3px green;
+}
+th{
+    border: solid 3px green;
+    background-color: lightgray;
+}

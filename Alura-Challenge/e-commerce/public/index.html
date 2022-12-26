@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/header.css">
+    <link rel="stylesheet" href="../src/css/banner.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/jpg" href="favicon.png"/>
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar__left">
+                <div class="navbar__logo">
+                    <a class="navbar__logo-link" href="#header"><img src="../src/img/Logo.png" alt="Logo AluraGeek"></a>
+                </div>
+                <div class="navbar__search">
+                    <input class="navbar__search-input" type="text" placeholder="¿Qué deseas buscar?"><button><img class="loupe" src="../src/img/Vector.png" alt="Search"></button>
+                </div>
+            </div>
+            <div class="navbar__right">
+                <div class="navbar__login">
+                    <a class="navbar__login-ref" href="../src/html/login.html">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+                <div class="banner__container">
+                    <h1 class="banner__title">Febrero Promocional</h1>
+                    <p class="banner__text">Productos seleccionados con 33% de descuento</p>
+                    <button class="banner__button">Ver Consolas</button>
+                </div> 
+        </section>
+        <section class="products">
+
+            <div class="products__space">
+                <div class="products__text">
+                    <h2 class="products__title">Star Wars</h2>
+                    <a class="products__arow" href="../src/html/products.html">Ver todo<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="products__detail">
+                   
+                </div>
+            </div>
+            
+            <div class="products__space">
+                <div class="products__text">
+                    <h2 class="products__title">Consolas</h2>
+                    <a class="products__arow" href="../src/html/products.html">Ver todo<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+            </div>
+
+            <div class="products__space">
+                <div class="products__text">
+                    <h2 class="products__title">Diversos</h2>
+                    <a class="products__arow" href="../src/html/products.html">Ver todo<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                
+            </div>
+
+        </section>
+        <section class="details">
+            <img class="" src="../src/img/Logo.png" alt="Logo AluraGeek">
+            <ul class="details__list">
+                <li class="details__items">Quienes somos</li>
+                <li class="details__items">Política de privacidad</li>
+                <li class="details__items">Programa de fidelidad</li>
+                <li class="details__items">Nuestras tiendas</li>
+                <li class="details__items">Quiero ser franquicia</li>
+                <li class="details__items">Anúncie aquí</li>
+            </ul>
+            <form action="" class="form">
+                <h3 class="form_title">Hable con nosotros</h3>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Escribe tu mensaje">
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Desarrollado por Manuel Garcia</p>
+        <p class="footer__year">2022</p>
+    </footer>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+cd - para entrar a carpetas
+
+
+ls - ver archivos dentro de carpetas
+
+
+git init - iniciamos un repositorio (master)
+
+
+git init --bare - repositorio puro solo contiene modificaciones de los archivos, no copias. 
+Solo controla y se puede acceder remoto.
+
+
+git status - ver estado, en que rama esta, commits, archivos sin agregar 
+(aparecen en rojo, una vez hecho add se ponen en verde), etc.
+
+
+git add - agregamos archivos al commit. "." agregamos todos los archivos. "nombre del archivo" agregamos ese archivo solamente.
+
+
+git rm --cached <file> - para dejar de monitoriar un archivo. rm es remove.
+
+
+git commit -m "Descripcion del cambio en el archivo no muy largo" - al hacer actualizaciones del archivo hacemos un commit.
+
+
+git config --global o --local user.email "manuelgarcia24696@gmail.com - Para tener data de quien hizo los cambios.
+
+
+git config --global o --local user.name "Manuel Garcia" - config generales. Para tener data de quien hizo los cambios.
+
+
+git log - Vemos un hash (identificacion unica del commit) del commit, branch, autor, fecha y comentarios del commit.
+
+
+clar - limpiar pantalla.
+
+
+git log --oneline - Lo mismo que git log pero en una linea.
+
+
+git log -p - aca vemos toda la data y te muestra las modificaciones en los commit.
+
+
+:q o :x - salimos.
+
+
+--pretty="format%h" - estos son para el git log, para editar que es lo que queremos ver, podemos cambiar el % para ver diferentes cosas.
+
+
+-Si no quiero mostrar algo, como archivos de configuracion del programa lo que debo hacer es crear un archivo en el 
+proyecto que se llame ".gitignore". Dentro de ese archivo agregamos los archivos o carpetas a ignorar. 
+Este archivo si se le debe hacer add. Ej.:	carpeta/
+			                        a.congif
+
+
+cd.. - volvemos para atras en las carpetas. Si agregamos /.. backeamos dos carpetas.
+
+
+mkdir - creamos carpeta.
+
+
+git remote add "nombre" rutaDeAccesoAlServidor - agrego servidor.
+
+
+git remote - lista los servidores remotos que nuestro repositorio conoce.
+
+
+git remote -b nos - indica si el servidor es funcional (fetch y push).
+
+
+git clone DireccionDelServidor NombreQueLeQuieroDar - Clonar repositorio. Ej.: /c/user/etc.
+
+
+git push Servidor/repositorio Branch - Pusheo la info al servidor, primero elijo al servidor y luego el branch 
+(local - global). Si agrego al git push un -u hace que simpre elija ese origen.
+
+
+git remote rename ServidorACambiarNombre NuevoNombre - renombramos servidor.
+
+
+git pull Servidor/repositorio Branch - Bajamos del servidor la data y nos dice que cambios hubo.
+
+
+git branch Nombre - creamos un branch.
+
+
+git checkout nombreBranch - Cambiamos de branch donde laburamos. Trabajamos en diferentes branches para no pisar el trabajo del otro. Generalmente se trabaja en dif areas.
+
+
+git checkout -b nombreBranch - creamos un branch y nos movemos ahi.
+
+
+git merge branch - lo que hago es unir dos branches, todo lo que tiene el que estoy manejando y los cambios que hice en el otro.
+
+
+git rebase branch - cambio la base del commit de un branch a otro
+
+
+Recordar siempre trabajar con la última versión del programa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

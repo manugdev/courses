@@ -1,0 +1,14 @@
+/*Estilos, tamaños, decoracion, etc. para fuentes*/
+h1{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline red;
+}
+p{
+    font-weight: bolder;
+}
+.parrafo2{
+    font-weight: lighter;
+}

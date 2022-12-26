@@ -1,0 +1,149 @@
+{
+    "products": [
+        {
+            "image": "figura-darth-vader.png",
+            "name": "Darth Vader",
+            "price": 600.00,
+            "category": "Star Wars",
+            "description": "Figura de colección Darth Vader.",
+            "id": 1
+        },
+        {
+            "image": "figura-grogu.png",
+            "name": "Grogu",
+            "price": 600.00,
+            "category": "Star Wars",
+            "description": "Figura de colección Grogu.",
+            "id": 2
+        },
+        {
+            "image": "figura-kylo-ren.png",
+            "name": "Kylo Ren",
+            "price": 600.00,
+            "category": "Star Wars",
+            "description": "Figura de colección Kylo Ren.",
+            "id": 3
+        },
+        {
+            "image": "figura-stormtrooper.png",
+            "name": "Storm Trooper",
+            "price": 600.00,
+            "category": "Star Wars",
+            "description": "Figura de colección Storm Trooper",
+            "id": 4
+        },
+        {
+            "image": "figura-yoda.png",
+            "name": "Yoda",
+            "price": 60.00,
+            "category": "Star Wars",
+            "description": "Figura de colección Yoda.",
+            "id": 5
+        },  
+        {
+            "image": "taza-stormtrooper.png",
+            "name": "Taza Stormtrooper",
+            "price": 60.00,
+            "category": "Star Wars",
+            "description": "Taza edición especial Storm Trooper.",
+            "id": 6
+        },
+        {
+            "image": "control-nintendo-switch.png",
+            "name": "Control Switch",
+            "price": 900.00,
+            "category": "Consolas",
+            "description": "Control de consola Nintendo Switch.",
+            "id": 7
+        },
+        {
+            "image": "control-xbox.png",
+            "name": "Control X-Box",
+            "price": 900.00,
+            "category": "Consolas",
+            "description": "Control de consola Xbox.",
+            "id": 8
+        },
+        {
+            "image": "gameboy-color.png",
+            "name": "Gameboy Color",
+            "price": 2000.00,
+            "category": "Consolas",
+            "description": "Consola portátil Gameboy Color.",
+            "id": 9
+        },
+        {
+            "image": "nintendo-nes.png",
+            "name": "Nintendo Nes",
+            "price": 2000.00,
+            "category": "Consolas",
+            "description": "Consola Nintento Nes.",
+            "id": 10
+        },
+        {
+            "image": "playstation-5.png",
+            "name": "PlayStation 5",
+            "price": 4000.00,
+            "category": "Consolas",
+            "description": "Consola PlaySation 5.",
+            "id": 11
+        },
+        {
+            "image": "xbox-series-x.png",
+            "name": "Xbox Series X",
+            "price": 60.00,
+            "category": "Consolas",
+            "description": "Consola Xbox Series X.",
+            "id": 12
+        },
+        {
+            "image": "figura-sonic.png",
+            "name": "Sonic",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Figura de colección Sonic.",
+            "id": 13
+        },
+        {
+            "image": "oculus-vr.png",
+            "name": "Oculus VR",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Lentes de Realidad Virtual.",
+            "id": 14
+        },
+        {
+            "image": "peluche-pikachu.png",
+            "name": "Peluche Pikachu",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Peluche de Pikachu de colección.",
+            "id": 15
+        },
+        {
+            "image": "playera-atari.png",
+            "name": "Playera Atari",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Playera Atari color blanca.",
+            "id": 16
+        },
+        {
+            "image": "playera-snes.png",
+            "name": "Playera SNES",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Playera de SNES.",
+            "id": 17
+        },
+        {
+            "image": "reloj.png",
+            "name": "Reloj Despertador",
+            "price": 60.00,
+            "category": "Diversos",
+            "description": "Reloj despertador en color rosa.",
+            "id": 18
+        }
+    ]
+}
+

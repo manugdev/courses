@@ -1,0 +1,98 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerPrincipal-nav{
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
+.videoSobre-video{
+    flex-grow: 0.5;
+    flex-shrink: 0.5;
+}
+.videoSobre .container{
+    display: flex;
+    justify-content: space-between;
+}
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
+.videoSobre-sobre{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:768px){
+    .headerPrincipal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    .headerPrincipal-nav{
+        flex-direction: column;
+    }
+    .contenidoPrincipal-cursos{
+        flex-direction: column;
+    }
+    .contenidoPrincipal-cursos-link{
+        width: 100%;
+    }
+    .videoSobre .container{
+        flex-direction: column;
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    }
+    .rodapePrincipal-patrocinadores-list{
+        width: auto;
+        justify-content: space-around;
+    }
+    .rodapePrincipal-contatoForm{
+        width: auto;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    }
+    .headerPrincipal-nav-link.headerPrincipal-nav-link-app{
+        order: -1;
+    }
+}

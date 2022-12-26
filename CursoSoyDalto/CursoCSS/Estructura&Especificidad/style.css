@@ -1,0 +1,57 @@
+/*Selector Universal*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Selector de tipo*/
+h1{
+    color: blue;
+}
+
+/*Selector de clase*/
+.parrafo{
+    color:blueviolet;
+}
+
+/*Selector de identificador*/
+#idSubtitulo{
+    color: brown;
+}
+
+/*Selector por atributo*/
+[atributo="atributo"]{
+    color: aquamarine;
+}
+
+/*Selector por descendencia*/
+div h3 p{
+    color: orange;
+}
+
+/*Selector por pseudo clases*/
+button:hover{
+    background-color: black;
+}
+
+/*ESPECIFICIDAD
+-El ultimo selector del mismo  es el que se toma (cascada).
+-Orden de especificidad:
+    1) !important
+    2) estilos en linea
+    3) identificadores
+    4) clases - pseudo clases - atributos
+    5) elementos - pseudo elementos
+*/
+
+b{
+    color: orange;
+}
+.color__red{
+    color: red;
+}
+#color__blue{
+    color: blue;
+}
+b{
+    color: purple !important; 
+}

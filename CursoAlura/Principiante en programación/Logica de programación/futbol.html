@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntaje equipo FUTBOL</title>
+</head>
+<body>
+    <h1>Puntaje equipo FUTBOL</h1>
+    <script>
+        function saltarLinea(){
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase){
+            document.write(frase)
+            saltarLinea();
+        }
+        
+
+        var equipo = prompt("Ingrese el nombre de su equipo: "),
+            puntosAntes = parseInt(prompt ("Cuál fue el puntaje de " + equipo + " el torneo pasado: ")),
+            victorias = parseInt(prompt("Cuantas victorias tuvo " + equipo + ": ")),
+            empates = parseInt(prompt("Cuantos empates tuvo " + equipo + ": ")),
+            puntajeTotal = ((victorias * 3) + empates);
+        imprimir("El puntaje total de " + equipo + " es de: " + puntajeTotal);
+        
+        if(puntajeTotal > puntosAntes){
+            imprimir("El equipo esta MEJOR que el torneo pasado :D");
+        }else if(puntajeTotal < puntosAntes){
+            imprimir("El equipo esta PEOR que el torneo pasado :(");
+        }else{
+            imprimir("El equipo esta Igual que el torneo pasado!");
+        }
+        
+    </script>
+</body>
+</html>

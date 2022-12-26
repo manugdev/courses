@@ -1,0 +1,5 @@
+Git:
+
+Head - Estado actual de nuestro código.
+Working tree - Lugar donde los archivos realmente estan siendo almacenados.
+Index - Lugar donde git almacena lo que sera commiteado (Ubicacion entre el WorkingTree y el repositorio)

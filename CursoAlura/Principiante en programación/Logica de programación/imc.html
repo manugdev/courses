@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>Programa para calcular IMC</h1>
+    <script>
+        function saltarLinea(){
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        function imprimir(frase){
+            document.write(frase)
+            saltarLinea();
+        }
+        function calcularImc(peso, altura){
+            return (peso / (altura * altura));
+        }
+
+        var nombre = prompt("Informe su nombre: "),
+            pesoInformado = prompt(nombre + " informe su peso: "),
+            alturaInformada = prompt(nombre + " informe su altura: "),
+            imcCalculado = calcularImc(pesoInformado, alturaInformada);
+        imprimir("El IMC de " + nombre + " es: " + imcCalculado); 
+
+        imprimir("Su clasificación del IMC es:")
+        if(imcCalculado < 19.5){
+            imprimir("-Insuficiencia ponderal");
+        }if(imcCalculado > 18.5 && imcCalculado < 24.9){
+            imprimir("-Intervalo normal");
+        }if(imcCalculado >= 25 && imcCalculado < 30){
+            imprimir("-Sobrepeso");
+        }if(imcCalculado >= 30){
+            imprimir("-Obesidad");
+        }if(imcCalculado > 30 && imcCalculado <= 34.9){
+            imprimir("-Obesidad de clase I");
+        }if(imcCalculado >= 35 && imcCalculado <= 39.9){
+            imprimir("-Obesidad de clase II");
+        }if(imcCalculado >= 40){
+            imprimir("-Obesidad de clase III");
+        }
+    </script>
+</body>
+</html>

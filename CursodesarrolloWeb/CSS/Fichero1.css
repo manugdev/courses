@@ -1,0 +1,15 @@
+/*Esto es un fichero de estilo CSS*/
+
+h1{
+    color:blue;
+}
+p{
+    color:#FB0000;
+}
+li{
+    color:rgb(166, 0, 251)
+}
+h3{
+    color:rgba(40, 186, 154, 0.2)
+    /*RGBA va de 0 a 1*/
+}

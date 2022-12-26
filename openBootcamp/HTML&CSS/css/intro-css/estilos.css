@@ -1,0 +1,23 @@
+h1{
+  color: yellow;
+}
+/*Probando colores y fuentes*/
+p{
+  color: blue;
+  font-size: 20px;
+}
+p#primera-noticia{
+  color: green;
+  font-size: 12px;
+}
+#segunda-noticia{
+  color: darkmagenta;
+}
+.encabezado{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+*.warning{
+  /*Selector global*/
+  color: red;
+}

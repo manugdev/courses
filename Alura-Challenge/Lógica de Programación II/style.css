@@ -1,0 +1,74 @@
+body{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #E0BEA6;
+}
+header{
+    font-weight: bold;
+    font-size: 55px;
+    padding: 40px;
+    text-align: center;
+}
+#vida{
+    font-size: 25px;
+    font-weight:700;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+canvas{
+    padding: 20px;
+    margin-left: 100px;
+    float: left;
+}
+#frase{
+    font-size: 35px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#letra{
+    font-size: 20px;   
+    width: 150px; 
+    height: 35px;  
+    border-radius: 5px; 
+    text-align: center;
+}
+#boton{
+    font-weight:bold;
+    background-color: #B89B88;
+    font-size: 20px;   
+    width: 130px; 
+    height: 35px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+#agregar{
+    font-weight:bold;
+    background-color: #B89B88;
+    font-size: 20px;   
+    width: 130px; 
+    height: 35px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+#nueva{
+    font-size: 20px;   
+    width: 200px; 
+    height: 35px;  
+    border-radius: 5px; 
+    margin-top: 270px;
+    text-align: center;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 180px;
+    width: 100%;
+}

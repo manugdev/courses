@@ -1,0 +1,19 @@
+{
+  "perfil": [
+    {
+      "nombre": "Manuel Garcia",
+      "email": "manuelgarcia24696@gmail.com",
+      "id": "1f7727f5-f1b0-4c7c-b0c7-f9a8ade2f43a"
+    },
+    {
+      "nombre": "Rigoberta",
+      "email": "Rigoberta@alura.com",
+      "id": "ceaae97d-a5a7-41a0-893d-1c88dd5d5923"
+    },
+    {
+      "nombre": "Ester",
+      "email": "Ester@unmail.com",
+      "id": "dddb6df1-d590-4457-9aa8-cba0a3dcc702"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 30px;
+}
+
+.first-line::first-line{
+    color: red;
+}
+
+.first-letter::first-letter{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+input::placeholder{
+    color:blue;
+    text-align: center;
+}
+
+.selection::selection{
+    background-color: red;
+    color: white;
+}
+
+.afterYBefore::before{
+    content: "Manuel Garcia es el número uno";
+    padding: 50px;
+    background-color: brown;
+}
+.afterYBefore::after{
+    content: "a";
+    padding: 50px;
+    background-color: bisque;
+}

@@ -1,0 +1,33 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+div{
+    width: 120px;
+    height: 120px;
+}
+.caja1{
+    background-color: yellow;
+    
+}
+.caja2{
+    background-color: red;
+    position: relative; /*Al darle relative podemos utilizar las props bottom-left-right-top. TOP y LEFT son las mas importantes*/
+    left: 20px;
+    top: 10px;
+    z-index: -1;
+}
+.caja3{
+    background-color: orange;
+    position: absolute;
+    opacity: .8;
+    left: 120px;
+}
+.caja4{
+    background-color: blue;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    background-color: blanchedalmond;
+    width: 50vw;
+    height: 100vh;
+}
+/* 1 em es, por defecto, 16px*/
+.unidades{
+    font-size: 50px;
+}
+.unidades__titulo{
+    font-size: 3em;
+}
+
+/*Los porcentajes son en base al tamaño del contenedor*/

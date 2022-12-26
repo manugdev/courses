@@ -1,0 +1,55 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2{
+    background-color: red;
+    display: inline;
+    /*No se le puede dar altura ni anchura,  a no ser que sea block o inline-block*/
+}
+p{
+    background-color: cadetblue;
+}
+b{
+    background-color: cornflowerblue;
+}
+
+h3{
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px; /*Distancia del texto a la caja*/
+    text-align: center;
+    border: 5px solid red;
+    text-shadow: 2px 2px 7px black;
+}
+h4{
+    background-color: beige;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px; /*Distancia entra cajas*/
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px black,
+                1px 1px 1px 1px black,
+                1px 1px 1px 1px black,
+                1px 1px 1px 1px black;
+    transform: rotate(90deg);
+}
+.caja1{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: auto; 
+    border: 10px solid blue;
+}
+.caja2{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    outline: 10px solid black; /*No ocupa espacio fuera del width y height puesto*/
+}

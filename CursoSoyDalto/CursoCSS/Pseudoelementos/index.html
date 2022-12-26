@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pseudo-elementos</title>
+</head>
+<body>
+    <h1>Pseudo-elementos:</h1>
+    <ul>
+        <li>
+            <h2>::first-line</h2>
+            <p class="first-line">Solo funciona en elementos "block" (inline-block y block). 
+            Sirve para editar la primera linea del texto.
+            </p>
+        </li>
+        <li>
+            <h2>::first-letter</h2>
+            <p class="first-letter">Solo funciona en elementos "block" (inline-block y block).
+            Sirve para editar la primera letra del texto.
+            </p>
+        </li>
+        <li>
+            <h2>::placeholder</h2>
+            <input type="text" name="input" placeholder="Placeholder">
+            <p>Podemos cambiar las caracteristicas del placeholder.</p>
+        </li>
+        <li>
+            <h2>::selection</h2>
+            <p class="selection">Podemos cambiar las caracteristicas de la seleccion de contenido!</p>
+        </li>
+        <li>
+            <h2>::after</h2>
+            <p class="afterYBefore">Hijos de los elementos al que se le aplica. Content necesario.</p>
+        </li>
+    </ul>
+</body>
+</html>

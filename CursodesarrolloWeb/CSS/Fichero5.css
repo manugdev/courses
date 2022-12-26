@@ -1,0 +1,16 @@
+/*Estilo para modelo de caja*/
+.Linea1{
+    border: 5px solid green;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.Linea2{
+    border: 8px dotted blue;
+    width: 75%;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}

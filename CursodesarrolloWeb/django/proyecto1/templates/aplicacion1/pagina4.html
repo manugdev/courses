@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{%extends "aplicacion1/plantilla.html"%}
+{%load misfiltros%}
+{%block cabecera%}
+    <title>pagina 4</title>
+{% endblock %}  
+{%block bloque1%}
+    <h1>Estamos en la Pagina 4</h1>
+    <h3>{{texto|recortar:"Hola"}}</h3>
+    <h3>{{numero|add:"25"}}</h3>
+    <h3>{{hora|default:"No hay datos para la hora"}}</h3>
+{% endblock %} 

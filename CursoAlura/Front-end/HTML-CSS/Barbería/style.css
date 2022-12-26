@@ -1,0 +1,289 @@
+/*NOTAS:
+
+Si quiero usar selectores mas especificos podria hacer por ej.:
+Si tuviera un parrafo despues del main y quisiera hacerle algo en el CSS
+deberia hacer -> main > p{} - esto lo que hace es hacer elemendo > hijo{}.
+
+Si quisiera seleccionar algo que este entre medio podria hacer por ej.:
+img + p{} seria aplicar algo al primer parrafo despues de una imagen;
+o img - p{} aplicaria a todos los parrafos despues de la imagen.
+
+.principal p:not(#mision){orange} hariamos que el parrafo central sea naranja
+
+otra opcion buena para tamaños de objetos es usar calc() donde puedo calcular
+el tamaño de la imagen segun el tamaño de mi pagina. Ej.: calc(40%-(20px))
+
+Usando para colores rgba lo que hago es pasar los tres parametros de color
+y el ultimo es la opacida!
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer{
+    text-align: center;
+    background: url(../Productos/imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+form{
+    margin: 40px 40px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/*Aquí inicia el CSS para nuestra home*/
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lista-diferenciales li{
+    line-height: 1.5;
+}
+
+.lista-diferenciales li:before{
+    content:"★"
+}
+
+.lista-diferenciales li:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+    box-shadow: 10px 10px 10px black;
+}
+.video{
+    width: 560px;
+    padding: 3em 0;
+    margin: 1em auto;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+    .enviar{
+        width: 70%;
+    }  
+    .productos{
+        width: auto;
+    }
+    .productos li{
+        display: grid;
+        margin-top: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+}

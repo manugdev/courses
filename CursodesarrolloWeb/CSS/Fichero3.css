@@ -1,0 +1,16 @@
+/*Hoja de estilos fichero3*/
+.capa1{
+    color: blue;
+}
+/*Al ser capa empieza con .*/
+
+.capa2{
+    color:green;
+    border: 4px green solid;
+}
+
+#parrafo1{
+  color:red;
+  border-color: lightgrey;
+}
+ /*Al ser id empieza con #*/

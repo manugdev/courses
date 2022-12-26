@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagenes/juego-del-ahorcado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat:wght@300&family=Smooch+Sans:wght@600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>¡Juego del Ahorcado!</h1>
+    </header>
+    <section>
+        <div id="vida">
+            Vidas restantes: 6
+        </div>
+        <canvas id="lienzo" width="600" height="500">
+            Tu navegador no acepta Canvas 
+        </canvas>
+        <div id="frase">
+        </div>
+        <div >
+            <input minlength="1" maxlenght="1" type="text" name="Letra" id="letra" placeholder="Escribe una letra" required="" pattern="[a-zA-Z]">
+            <input type="button" id="boton" value="Comprobar">
+        </div>
+        <div>
+            <input type="text" name="palabraNueva" id="nueva" placeholder="Escribe palabra nueva" pattern="[a-zA-Z]">
+            <input type="button" id="agregar" value="Agregar" onclick="nuevaPalabra();">
+        </div>
+        
+    </section>
+    <footer>
+        &copy Copyright Garcia Manuel - 2022
+    </footer>
+    <script src="/Lógica de Programación II/app.js"></script>
+</body>
+</html>
